@@ -1,0 +1,11 @@
+name = "gsiphash"
+version = "1.0.0"
+description = "GSipHash is a small Gleam library that ports to Gleam the SipHash family of non-cryptographic hash functions."
+licences = ["MIT"]
+repository = { type = "github", user = "BrendoCosta", repo = "gsiphash" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
